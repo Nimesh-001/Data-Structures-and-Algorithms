@@ -9,14 +9,14 @@ struct node{
 struct node* head = null;
 
 void insertatbegging(int value){
-	struct node* new node =(struct node*)malloc(size of(struct node*));
+	struct node* new node =(struct node*)malloc(size of(struct node));
 	new node -> data = value;
 	new node -> next = head;
-	head = null;
+	head = new node;
 }
 
 void insertatend(int value){
-	struct node* new node =(struct node*)malloc(size of(struct node*));
+	struct node* new node =(struct node*)malloc(size of(struct node));
 	new node -> data =value;
 	new node -> next =null;
 	
