@@ -16,6 +16,9 @@ void insertatbegging(int value){
 }
 
 void insertatend(int value){
+	struct node* new node =(struct node*)malloc(size of(struct node*));
+	new node -> data =value;
+	new node -> next =null;
 	
 }
 
